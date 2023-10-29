@@ -1,3 +1,5 @@
+local setclipboard = setclipboard or toclipboard or set_clipboard or (Clipboard and Clipboard.set)
+
 setclipboard("game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, game.Players.LocalPlayer)")
 
 game.StarterGui:SetCore("SendNotification", {
