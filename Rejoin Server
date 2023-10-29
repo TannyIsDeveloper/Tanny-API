@@ -1,0 +1,6 @@
+setclipboard("game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, game.Players.LocalPlayer)")
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Notification! ", 
+    Text = "Copied script"
+})
